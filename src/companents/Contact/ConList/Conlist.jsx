@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Conlist(props) {
+
   return (
     <ul className="con__list">
       {props.obj.map((obj, i) => (

@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Form(props) {
+
   return (
     <form className="con__form" id="conForm" onSubmit={props.inputsFunc}>
       <input className="con__input" onChange={props.changeFunc} type="text" name="text" id="last" placeholder="Full name" required />

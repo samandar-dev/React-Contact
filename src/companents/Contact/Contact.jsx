@@ -3,6 +3,7 @@ import Categores from './Categores.jsx/Categores'
 import Conlist from './ConList/Conlist'
 import Form from './Form/Form'
 import './contact.scss'
+
 class Contact extends Component {
   constructor(props) {
     super(props)
